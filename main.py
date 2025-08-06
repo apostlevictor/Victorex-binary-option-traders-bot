@@ -7,8 +7,8 @@ Main entry point for the application
 import asyncio
 import logging
 import os
-from bot.telegram_bot import TradingBot
-from utils.logging_config import setup_logging
+from telegram_bot import TradingBot
+from logging_config import setup_logging
 from config.settings import BOT_TOKEN
 
 def main():
