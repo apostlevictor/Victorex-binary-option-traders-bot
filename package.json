@@ -1,0 +1,20 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot written in Python",
+  "main": "main.py",
+  "scripts": {
+    "start": "python3 main.py",
+    "dev": "nodemon --exec python3 main.py"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "python"
+  ],
+  "author": "Victorex binary option traders",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
